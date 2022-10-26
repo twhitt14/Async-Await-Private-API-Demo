@@ -11,6 +11,11 @@
 		EC20EB082908919100E743A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB072908919100E743A3 /* ContentView.swift */; };
 		EC20EB0A2908919300E743A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC20EB092908919300E743A3 /* Assets.xcassets */; };
 		EC20EB0D2908919300E743A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC20EB0C2908919300E743A3 /* Preview Assets.xcassets */; };
+		EC20EB14290891B700E743A3 /* AsyncAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB13290891B700E743A3 /* AsyncAPI.swift */; };
+		EC20EB1B2908941E00E743A3 /* StarWarsPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB182908939500E743A3 /* StarWarsPerson.swift */; };
+		EC20EB1C2908942100E743A3 /* StarWarsPersonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB192908939500E743A3 /* StarWarsPersonResponse.swift */; };
+		EC20EB1D2908942300E743A3 /* PrivateStarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB1A2908939500E743A3 /* PrivateStarWarsAPI.swift */; };
+		EC20EB1F2908961900E743A3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB1E2908961900E743A3 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		EC20EB072908919100E743A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC20EB092908919300E743A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC20EB0C2908919300E743A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC20EB13290891B700E743A3 /* AsyncAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAPI.swift; sourceTree = "<group>"; };
+		EC20EB182908939500E743A3 /* StarWarsPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsPerson.swift; sourceTree = "<group>"; };
+		EC20EB192908939500E743A3 /* StarWarsPersonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsPersonResponse.swift; sourceTree = "<group>"; };
+		EC20EB1A2908939500E743A3 /* PrivateStarWarsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateStarWarsAPI.swift; sourceTree = "<group>"; };
+		EC20EB1E2908961900E743A3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,9 @@
 			children = (
 				EC20EB052908919100E743A3 /* Async_Await_Private_API_DemoApp.swift */,
 				EC20EB072908919100E743A3 /* ContentView.swift */,
+				EC20EB13290891B700E743A3 /* AsyncAPI.swift */,
+				EC20EB1E2908961900E743A3 /* String+Extensions.swift */,
+				EC20EB172908939500E743A3 /* Private Star Wars API */,
 				EC20EB092908919300E743A3 /* Assets.xcassets */,
 				EC20EB0B2908919300E743A3 /* Preview Content */,
 			);
@@ -65,6 +78,16 @@
 				EC20EB0C2908919300E743A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC20EB172908939500E743A3 /* Private Star Wars API */ = {
+			isa = PBXGroup;
+			children = (
+				EC20EB182908939500E743A3 /* StarWarsPerson.swift */,
+				EC20EB192908939500E743A3 /* StarWarsPersonResponse.swift */,
+				EC20EB1A2908939500E743A3 /* PrivateStarWarsAPI.swift */,
+			);
+			path = "Private Star Wars API";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC20EB082908919100E743A3 /* ContentView.swift in Sources */,
+				EC20EB1F2908961900E743A3 /* String+Extensions.swift in Sources */,
+				EC20EB1B2908941E00E743A3 /* StarWarsPerson.swift in Sources */,
 				EC20EB062908919100E743A3 /* Async_Await_Private_API_DemoApp.swift in Sources */,
+				EC20EB1D2908942300E743A3 /* PrivateStarWarsAPI.swift in Sources */,
+				EC20EB1C2908942100E743A3 /* StarWarsPersonResponse.swift in Sources */,
+				EC20EB14290891B700E743A3 /* AsyncAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
