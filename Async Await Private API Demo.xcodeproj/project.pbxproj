@@ -16,7 +16,18 @@
 		EC20EB1C2908942100E743A3 /* StarWarsPersonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB192908939500E743A3 /* StarWarsPersonResponse.swift */; };
 		EC20EB1D2908942300E743A3 /* PrivateStarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB1A2908939500E743A3 /* PrivateStarWarsAPI.swift */; };
 		EC20EB1F2908961900E743A3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB1E2908961900E743A3 /* String+Extensions.swift */; };
+		EC20EB27290ACFFC00E743A3 /* Async_Await_Private_API_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EB26290ACFFC00E743A3 /* Async_Await_Private_API_DemoTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC20EB28290ACFFC00E743A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC20EAFA2908919100E743A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC20EB012908919100E743A3;
+			remoteInfo = "Async Await Private API Demo";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EC20EB022908919100E743A3 /* Async Await Private API Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Async Await Private API Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,10 +40,19 @@
 		EC20EB192908939500E743A3 /* StarWarsPersonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsPersonResponse.swift; sourceTree = "<group>"; };
 		EC20EB1A2908939500E743A3 /* PrivateStarWarsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateStarWarsAPI.swift; sourceTree = "<group>"; };
 		EC20EB1E2908961900E743A3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		EC20EB24290ACFFC00E743A3 /* Async Await Private API DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Async Await Private API DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC20EB26290ACFFC00E743A3 /* Async_Await_Private_API_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async_Await_Private_API_DemoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EC20EAFF2908919100E743A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC20EB21290ACFFC00E743A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				EC20EB042908919100E743A3 /* Async Await Private API Demo */,
+				EC20EB25290ACFFC00E743A3 /* Async Await Private API DemoTests */,
 				EC20EB032908919100E743A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				EC20EB022908919100E743A3 /* Async Await Private API Demo.app */,
+				EC20EB24290ACFFC00E743A3 /* Async Await Private API DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +112,14 @@
 			path = "Private Star Wars API";
 			sourceTree = "<group>";
 		};
+		EC20EB25290ACFFC00E743A3 /* Async Await Private API DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC20EB26290ACFFC00E743A3 /* Async_Await_Private_API_DemoTests.swift */,
+			);
+			path = "Async Await Private API DemoTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +140,24 @@
 			productReference = EC20EB022908919100E743A3 /* Async Await Private API Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EC20EB23290ACFFC00E743A3 /* Async Await Private API DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC20EB2A290ACFFC00E743A3 /* Build configuration list for PBXNativeTarget "Async Await Private API DemoTests" */;
+			buildPhases = (
+				EC20EB20290ACFFC00E743A3 /* Sources */,
+				EC20EB21290ACFFC00E743A3 /* Frameworks */,
+				EC20EB22290ACFFC00E743A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC20EB29290ACFFC00E743A3 /* PBXTargetDependency */,
+			);
+			name = "Async Await Private API DemoTests";
+			productName = "Async Await Private API DemoTests";
+			productReference = EC20EB24290ACFFC00E743A3 /* Async Await Private API DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -122,6 +170,10 @@
 				TargetAttributes = {
 					EC20EB012908919100E743A3 = {
 						CreatedOnToolsVersion = 14.0.1;
+					};
+					EC20EB23290ACFFC00E743A3 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = EC20EB012908919100E743A3;
 					};
 				};
 			};
@@ -139,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				EC20EB012908919100E743A3 /* Async Await Private API Demo */,
+				EC20EB23290ACFFC00E743A3 /* Async Await Private API DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +203,13 @@
 			files = (
 				EC20EB0D2908919300E743A3 /* Preview Assets.xcassets in Resources */,
 				EC20EB0A2908919300E743A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC20EB22290ACFFC00E743A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +230,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC20EB20290ACFFC00E743A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC20EB27290ACFFC00E743A3 /* Async_Await_Private_API_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC20EB29290ACFFC00E743A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC20EB012908919100E743A3 /* Async Await Private API Demo */;
+			targetProxy = EC20EB28290ACFFC00E743A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EC20EB0E2908919300E743A3 /* Debug */ = {
@@ -345,6 +421,50 @@
 			};
 			name = Release;
 		};
+		EC20EB2B290ACFFC00E743A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM4FDSTQ8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.retro.Async-Await-Private-API-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Async Await Private API Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Async Await Private API Demo";
+			};
+			name = Debug;
+		};
+		EC20EB2C290ACFFC00E743A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM4FDSTQ8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.retro.Async-Await-Private-API-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Async Await Private API Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Async Await Private API Demo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,6 +482,15 @@
 			buildConfigurations = (
 				EC20EB112908919300E743A3 /* Debug */,
 				EC20EB122908919300E743A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC20EB2A290ACFFC00E743A3 /* Build configuration list for PBXNativeTarget "Async Await Private API DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC20EB2B290ACFFC00E743A3 /* Debug */,
+				EC20EB2C290ACFFC00E743A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
